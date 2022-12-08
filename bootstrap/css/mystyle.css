@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    /* background: black; */
+}
+
+/* Navagration meun */
+.navbar {
+    padding: 10px;
+    border-bottom: 2px solid tomato;
+}
+
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    /* padding-top: ; */
+}
+
+.sub-title {
+    color: tomato;
+    font-style: oblique;
+    font-size: 20px;
+    /* margin-bottom: 10px; */
+}
+
+/* Introduction Section */
+#intro {
+    background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../images/images-net.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    padding: 25px;
+    color: wheat;
+    border-bottom: 2px solid blanchedalmond;
+}
+
+#intro-title {
+    margin-top: 20px;
+    font-weight: 600;
+    padding-top: 25px;
+    padding-bottom: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Nollywood Section */
+#noll {
+    /* background-image: url(../images/pngtree.jpg); */
+    color: wheat;
+    margin-top: 35px;
+    padding: 15px;
+    border-bottom: 2px solid blanchedalmond;
+    padding-bottom: 30px;
+}
+
+#noll-img {
+    height: 15pc;
+}
+
+#not {
+    background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../images/download3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: wheat;
+    margin-top: 35px;
+    padding: 45px;
+    padding-bottom: 30px;
+}
+
+#bolt {
+    background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../images/images4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: wheat;
+    margin-top: 35px;
+    padding: 45px;
+    padding-bottom: 30px;
+}
+
+/* Footer Section */
+#end {
+    background-color: black;
+    padding-top: 30px;
+}
+
+#footer a {
+    color: wheat;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+#foot a {
+    /* background: rgb(230, 96, 96); */
+    text-decoration: none;
+    color: black;
+}
+
+#text {
+    color: wheat;
+    padding: 15px;
+}
+
+/* The Payment Method */
+

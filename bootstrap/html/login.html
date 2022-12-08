@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Net Tv- Login</title>
+    <!-- <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/fonts.css"> -->
+    <link rel="stylesheet" href="../css/sign.css">
+    <!-- <script src="../js/bootstrap.js"></script> -->
+    <!-- <script src="../js/jquery.js"></script>
+    <script src="../js/propper.js"></script> -->
+    <script src="https://kit.fontawesome.com/95ce2480c5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="bg-img">
+        <div class="content">
+            <header class="display-3 text-center">Login</header>
+            <form action="./dashboard.html">
+                <div class="field">
+                    <span class="fa fa-user"></span>
+                    <input type="email" class="form-control txtuser" required placeholder="Enter your email.">
+                </div>
+                <div class="field space">
+                    <span class="fa fa-lock"></span>
+                    <input type="password" required class="passer" placeholder="Confirm Password">
+                    <span class="showly">SHOW</span>
+                </div>
+                <div class="field space">
+                    <input type="submit" id="submit" value="LOGIN">
+                </div>
+                <div>
+                    <p class="message"></p>
+                </div>
+                <div class="pass">
+                    <a href="../html/Forgot_Password.html">Forgot Password?</a>
+                </div>
+                <div class="login">Or login with</div>
+                <div class="link">
+                    <div class="facebook">
+                        <a href="https://www.facebook.com" id="noy"><i class="fab fa-facebook-f"><span>Facebook</span></i></a>
+                    </div>
+                    <div class="instagram">
+                        <i class="fab fa-instagram"><span>Instagram</span></i>
+                    </div>
+                    <div class="google">
+                        <i class="fab fa-google"><span>Google</span></i>
+                    </div>
+                </div>
+                <div class="signup">Don't have an account?
+                    <a href="../html/signup.html">Signup Now</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script>
+        // For Password
+         const passer_fieldl = document.querySelector('.passer');
+        const showly_btnl = document.querySelector('.showly');
+        showly_btnl.addEventListener('click', function(){
+            if(passer_fieldl.type === "password"){
+                passer_fieldl.type = "text";
+                showly_btnl.style.color = "#3498db"
+                showly_btnl.textContent = "HIDE";
+            }else{
+                passer_fieldl.type = "password"
+                showly_btnl.style.color = "#222"
+                showly_btnl.textContent = "SHOW";
+            }
+        }) 
+    </script>
+    <script src="../js/login.js"></script>
+</body>
+</html>
